@@ -1,0 +1,217 @@
+header nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+::placeholder { color: gray;
+                font-size: 20px;
+               
+}
+
+
+.Encabezado{
+    width: 100%;
+    height: auto;
+    display: flex;
+    list-style: none;
+    color: black;
+    font-size: 27px;
+    padding: 0%;
+    
+
+}
+
+.Encabezado .Logo_Pinterest {
+    background-image: url("logo-Pinteres.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 23%;
+    
+}
+
+
+
+nav .input_container{
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6 ;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-shadow: 0 1px 6px 0 #20212447;
+    
+}
+
+
+
+nav .input_container .Busqueda {
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+
+nav .Boton1 button{
+    height: 46px;
+    width: 250px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;  
+    border-radius: 150px;
+    padding-right: 10px;
+    margin: 10px;
+    border-radius: 150px;
+
+ }    
+
+ nav .Boton1 button:hover{
+    border: 1px solid #dadce0;
+    color: black;
+    background-color: rgba(227, 222, 222, 0.929);
+    
+
+}
+
+
+nav .Boton2 button{
+    height: 46px;
+    width: 250px;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;    
+    border-radius: 150px;
+    padding-right: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 150px;
+ }    
+
+
+nav .Boton2 button:hover{
+    border: 1px solid #dadce0;
+    color: black;
+    background-color: rgb(190, 13, 13);
+    
+    
+     
+
+}
+
+
+nav .Boton3 button{
+    height: 46px;
+    width: 50px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;  
+    border-radius: 8px;
+    padding-right: 10px;
+    color: black;
+    place-content: center;
+    margin: 10px;
+
+ } 
+
+
+nav .Boton3 button:hover{
+    border: 1px solid #dadce0;
+    color: black;
+    background-color: rgb(220, 212, 212);
+    
+
+}
+
+nav .Boton4 button{
+    height: 46px;
+    width: 100px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;  
+    border-radius: 8px;
+    padding-right: 10px;
+    color: black;
+    place-content: center;
+    margin: 10px;
+     
+ }   
+
+nav .Boton4 button:hover{
+    border: 1px solid #dadce0;
+    color: black;
+    background-color: rgb(220, 212, 212);
+    
+
+}
+
+ 
+
+ nav input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+
+}
+
+
+.row   {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  
+    padding: 20px;
+    grid-gap: 10px;
+
+
+}
+
+.gallery__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.gallery__item:nth-child(2){
+    grid-column-start: span 2;
+
+}
+
+
+
+.gallery__item:nth-child(3){
+    grid-row-start: span 2;
+
+}
+
+
+
+
+.gallery__item:nth-child(7){
+    grid-column-start: span 2;
+
+}
+
+
+
+.gallery__item:nth-child(8){
+    grid-row-start: span 2;
+
+}
